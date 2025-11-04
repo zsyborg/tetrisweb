@@ -18,7 +18,7 @@ export default function Home() {
       </nav>
 
       {/* Hero Section */}
-      <section className="pt-32 pb-20 px-4 text-center relative overflow-hidden bg-black bg-opacity-70">
+      <section className="pt-32 pb-20 px-4 text-center relative overflow-hidden bg-black">
         <div className="absolute inset-0 ">
           <div className="absolute top-20 left-10 text-6xl animate-float">🟨</div>
           <div className="absolute top-40 right-20 text-6xl animate-float" style={{ animationDelay: '0.5s' }}>🟧</div>
@@ -48,7 +48,7 @@ export default function Home() {
       </section>
 
       {/* Game Features */}
-      <section id="game" className="py-20 px-4 bg-retro-dark/50 border-y-4 border-retro-orange">
+      <section id="game" className="py-20 px-4 bg-retro-dark/50 border-y-4 border-retro-orange bg-blue-800">
         <div className="max-w-6xl mx-auto">
           <h2 className="neon-text text-4xl font-retro mb-16 text-center">GAME FEATURES</h2>
           
@@ -78,7 +78,7 @@ export default function Home() {
       </section>
 
       {/* Token Section */}
-      <section id="token" className="py-20 px-4">
+      <section id="token" className="py-20 px-4 bg-slate-950">
         <div className="max-w-6xl mx-auto">
           <h2 className="neon-text text-4xl font-retro mb-16 text-center">TETRIS TOKEN</h2>
           
@@ -105,7 +105,7 @@ export default function Home() {
               </div>
 
               <button className="btn-retro w-full">
-                ★ VIEW ON MAGIC EDEN ★
+                ★ VIEW ON Raydium ★
               </button>
             </div>
           </div>
@@ -113,7 +113,7 @@ export default function Home() {
       </section>
 
       {/* How to Play */}
-      <section id="play" className="py-20 px-4 bg-retro-dark/50 border-t-4 border-retro-yellow">
+      <section id="play" className="py-20 px-4 bg-retro-dark/50 border-t-4 border-retro-yellow bg-red-700">
         <div className="max-w-6xl mx-auto">
           <h2 className="neon-text text-4xl font-retro mb-16 text-center">HOW TO PLAY</h2>
           
@@ -135,7 +135,7 @@ export default function Home() {
       </section>
 
       {/* Stats Section */}
-      <section className="py-20 px-4">
+      <section className="py-20 px-4 bg-yellow-400">
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-3 gap-8 text-center">
             <div className="card-retro">
@@ -155,7 +155,7 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 px-4 bg-gradient-to-r from-retro-yellow/10 to-retro-orange/10 border-y-4 border-retro-orange">
+      <section className="py-20 px-4 bg-gradient-to-r from-retro-yellow/10 to-retro-orange/10 border-y-4 border-retro-orange bg-orange-600">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="neon-text text-4xl font-retro mb-8">
             READY TO PLAY?
