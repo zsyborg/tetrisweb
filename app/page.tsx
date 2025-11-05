@@ -163,9 +163,9 @@ export default function Home() {
           <p className="text-xl font-mono mb-12">
             Join thousands of players in the ultimate retro gaming experience on Solana
           </p>
-          <button className="btn-retro text-lg">
+          <a href='https://react-tetris-jade.vercel.app/' className="btn-retro text-lg">
             ▶▶ START PLAYING NOW ▶▶
-          </button>
+          </a>
         </div>
       </section>
 
