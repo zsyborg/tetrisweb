@@ -8,7 +8,8 @@ export default function Home() {
       {/* Navigation */}
       <nav className="fixed top-0 w-full bg-retro-dark/90 border-b-4 border-retro-yellow z-50">
         <div className="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
-          <div className="neon-text text-2xl">▶ TETRIS</div>
+          <img src='/logo.png' className='w-28' />
+          {/* <div className="neon-text text-2xl">▶ TETRIS</div> */}
           <div className="flex gap-6 text-sm">
             <a href="#game" className="hover:text-retro-yellow transition">GAME</a>
             <a href="#token" className="hover:text-retro-yellow transition">TOKEN</a>
@@ -27,7 +28,7 @@ export default function Home() {
         
         <div className="relative z-10 max-w-4xl mx-auto">
           <h1 className="neon-text text-6xl md:text-8xl font-retro mb-6 animate-blink">
-            TETRIS
+            ▶TETRIS
           </h1>
           <p className="text-2xl md:text-4xl text-retro-yellow font-mono mb-8">
             The Classic Game on Solana Blockchain
@@ -173,7 +174,8 @@ export default function Home() {
       <footer className="bg-retro-dark border-t-4 border-retro-yellow py-8 px-4">
         <div className="max-w-6xl mx-auto">
           <div className="text-center text-sm font-mono space-y-4">
-            <p className="text-retro-yellow">TETRIS on Solana</p>
+            <img src='/logo.png' className='w-48 m-auto' />
+            {/* <p className="text-retro-yellow">TETRIS on Solana</p> */}
             {/* <p>© 2024 All Rights Reserved | Built on Solana Blockchain</p> */}
             <div className="flex justify-center gap-6">
               <a href="#" className="hover:text-retro-yellow transition">Discord</a>
