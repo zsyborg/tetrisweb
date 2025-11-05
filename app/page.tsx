@@ -12,7 +12,7 @@ export default function Home() {
           <div className="flex gap-6 text-sm">
             <a href="#game" className="hover:text-retro-yellow transition">GAME</a>
             <a href="#token" className="hover:text-retro-yellow transition">TOKEN</a>
-            <a href="#play" className="hover:text-retro-yellow transition">PLAY</a>
+            <a href="https://react-tetris-jade.vercel.app/" className="hover:text-retro-yellow transition">PLAY</a>
           </div>
         </div>
       </nav>
