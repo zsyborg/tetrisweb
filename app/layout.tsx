@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'TETRIS - Solana Gaming Token',
+  title: 'TETRIS - Solana Edition',
   description: 'Play retro TETRIS on Solana blockchain with TETRIS token rewards',
   icons: {
     icon: '🎮',
