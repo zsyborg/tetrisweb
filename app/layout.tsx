@@ -1,5 +1,9 @@
 import type { Metadata } from 'next'
 import './globals.css'
+import GoogleAnalytics from '@/components/GoogleAnalytics'
+
+// Your GA4 measurement ID
+const GA_MEASUREMENT_ID = 'G-2W6G0F1E0V'
 
 export const metadata: Metadata = {
   title: 'TETRIS - Solana Edition',
@@ -19,19 +23,9 @@ export default function RootLayout({
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        
-{/* <!-- Google tag (gtag.js) --> */}
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-2W6G0F1E0V"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-2W6G0F1E0V');
-</script>
-
       </head>
       <body className="grid-bg">
+        <GoogleAnalytics GA_MEASUREMENT_ID={GA_MEASUREMENT_ID} />
         {children}
       </body>
     </html>
