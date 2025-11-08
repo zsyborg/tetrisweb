@@ -13,7 +13,7 @@ export default function Home() {
           <div className="flex gap-6 text-sm">
             <a href="#game" className="hover:text-retro-yellow transition">GAME</a>
             <a href="#token" className="hover:text-retro-yellow transition">TOKEN</a>
-            <a href="https://game.soltetris.xyz/" className="hover:text-retro-yellow transition">PLAY</a>
+            <a href="#" className="hover:text-retro-yellow transition">PLAY</a>
           </div>
         </div>
       </nav>
@@ -92,7 +92,7 @@ export default function Home() {
             <div className="space-y-6">
               <div className="card-retro">
                 <h3 className="font-retro text-retro-dark text-lg mb-2">Token Address</h3>
-                <p className="text-retro-dark font-mono text-sm break-all">TETRIS.sol</p>
+                <p className="text-retro-dark font-mono text-sm break-all">Launching Soon</p>
               </div>
 
               <div className="card-retro">
@@ -164,7 +164,7 @@ export default function Home() {
           <p className="text-xl font-mono mb-12">
             Join thousands of players in the ultimate retro gaming experience on Solana
           </p>
-          <a href='https://game.soltetris.xyz/' className="btn-retro text-lg">
+          <a href='#' className="btn-retro text-lg">
             ▶▶ START PLAYING NOW ▶▶
           </a>
         </div>
