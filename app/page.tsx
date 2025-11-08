@@ -38,12 +38,12 @@ export default function Home() {
           </p>
           
           <div className="flex gap-6 justify-center flex-wrap">
-            <button className="btn-retro">
+            {/* <button className="btn-retro">
               ▶ PLAY NOW
             </button>
             <button className="btn-retro bg-retro-orange">
               ★ BUY TETRIS
-            </button>
+            </button> */}
           </div>
         </div>
       </section>
@@ -105,9 +105,9 @@ export default function Home() {
                 <p className="text-retro-dark text-xl">Solana Mainnet</p>
               </div>
 
-              <button className="btn-retro w-full">
+              {/* <button className="btn-retro w-full">
                 ★ VIEW ON Raydium ★
-              </button>
+              </button> */}
             </div>
           </div>
         </div>
