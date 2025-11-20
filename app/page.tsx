@@ -13,6 +13,7 @@ export default function Home() {
           <div className="flex gap-6 text-sm">
             <a href="#game" className="hover:text-retro-yellow transition">GAME</a>
             <a href="#token" className="hover:text-retro-yellow transition">TOKEN</a>
+            <a href="https://x.com/solantetris" className="hover:text-retro-yellow transition">X (Twitter)</a>
             <a href="https://game.soltetris.xyz/" className="hover:text-retro-yellow transition">PLAY</a>
           </div>
         </div>
@@ -105,9 +106,9 @@ export default function Home() {
                 <p className="text-retro-dark text-xl">Solana Mainnet</p>
               </div>
 
-              {/* <button className="btn-retro w-full">
-                ★ VIEW ON Raydium ★
-              </button> */}
+              <a href="https://x.com/solantetris" className="btn-retro w-full">
+                ★ VIEW ON X (Twitter) ★
+              </a>
             </div>
           </div>
         </div>
