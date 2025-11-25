@@ -20,21 +20,22 @@ export default function Home() {
       </nav>
 
       {/* Hero Section */}
-      <section className="pt-32 pb-20 px-4 text-center relative overflow-hidden bg-black">
+      <section className="pt-32 pb-20 px-4 text-center relative overflow-hidden bg-amber-400">
         <div className="absolute inset-0 ">
           <div className="absolute top-20 left-10 text-6xl animate-float">🟨</div>
           <div className="absolute top-40 right-20 text-6xl animate-float" style={{ animationDelay: '0.5s' }}>🟧</div>
           <div className="absolute bottom-20 left-20 text-6xl animate-float" style={{ animationDelay: '1s' }}>🟨</div>
         </div>
         
-        <div className="relative z-10 max-w-4xl mx-auto">
+        <div className="relative z-10 max-w-4xl mx-auto text-center flex flex-col items-center">
           <h1 className="neon-text text-6xl md:text-8xl font-retro mb-6 animate-blink">
             ▶TETRIS
           </h1>
-          <p className="text-2xl md:text-4xl text-retro-yellow font-mono mb-8">
+          <img src='/dino.gif' width={100} />
+          <p className="text-2xl md:text-4xl text-black font-mono mb-8">
             The Classic Game on Solana Blockchain
           </p>
-          <p className="text-lg md:text-xl text-retro-light mb-12 font-mono max-w-2xl mx-auto">
+          <p className="text-lg md:text-xl text-black mb-12 font-mono max-w-2xl mx-auto">
             Drop blocks, clear lines, and earn TETRIS tokens. Play the retro game you love with blockchain rewards.
           </p>
           
