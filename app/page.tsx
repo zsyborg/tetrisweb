@@ -14,6 +14,7 @@ export default function Home() {
             <a href="#game" className="hover:text-retro-yellow transition">GAME</a>
             <a href="#token" className="hover:text-retro-yellow transition">TOKEN</a>
             <a href="https://x.com/solantetris" className="hover:text-retro-yellow transition">X (Twitter)</a>
+            <a href="https://t.me/solantetris" className="hover:text-retro-yellow transition">Telegram</a>
             <a href="https://game.soltetris.xyz/" className="hover:text-retro-yellow transition">PLAY</a>
           </div>
         </div>
